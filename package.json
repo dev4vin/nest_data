@@ -1,6 +1,6 @@
 {
   "name": "@dev4vin/nest_data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Data and Response based utilities nest js",
   "bugs": {
     "url": "https://github.com/dev4vin/nest_data.git/issues"
