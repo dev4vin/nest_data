@@ -17,13 +17,15 @@
   "files": [
     "/dist"
   ],
-  "peerDependencies": {
-    "@dev4vin/commons": "^0.0.1",
-    "@nestjs/common": "^8.0.0",
+  "dependencies": {
+    "@dev4vin/commons": "^0.0.2",
     "@nestjs/graphql": "8.0.2",
     "@nestjs/swagger": "^5.1.4",
     "graphql-type-json": "^0.3.2",
-    "typeorm": ""
+    "typeorm": "^0.2.24"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0"
   },
   "publishConfig": {
     "access": "public"
