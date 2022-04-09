@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "lib": ["dom"],
+    "types": ["node"],
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "es2015",
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["**/*.spec.ts", "**/*.test.ts", "node_modules"]
+}

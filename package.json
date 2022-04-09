@@ -1,0 +1,28 @@
+{
+  "name": "@dev4vin/nest_data",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "description": "Data and Response based utilities nest js",
+  "repository": {
+    "type": "git",
+    "url": "https::github.com/dev4vin/vigilant-adventure"
+  },
+  "license": "MIT",
+  "author": "Peter Vincent",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.0",
+    "@nestjs/swagger": "^5.1.4",
+    "@dev4vin/commons": "^0.0.1",
+    "typeorm": "",
+    "@nestjs/graphql": "8.0.2",
+    "graphql-type-json": "^0.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}

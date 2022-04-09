@@ -1,0 +1,32 @@
+{
+  "root": "libs/helpers/nest-helpers-data",
+  "sourceRoot": "libs/helpers/nest-helpers-data/src",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/helpers/nest-helpers-data",
+        "main": "libs/helpers/nest-helpers-data/src/index.ts",
+        "tsConfig": "libs/helpers/nest-helpers-data/tsconfig.lib.json",
+        "assets": ["libs/helpers/nest-helpers-data/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/helpers/nest-helpers-data/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/helpers/nest-helpers-data"],
+      "options": {
+        "jestConfig": "libs/helpers/nest-helpers-data/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}
